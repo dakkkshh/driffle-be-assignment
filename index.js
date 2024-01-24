@@ -5,8 +5,8 @@
  */
 
 require('dotenv-safe').config();
-var app = require('../src/app');
-var log = require('../logger');
+var app = require('./src/app');
+var log = require('./logger');
 var http = require('http');
 
 /**

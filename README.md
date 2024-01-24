@@ -78,3 +78,9 @@ ACCESS_TOKEN_EXPIRY_IN_MINUTES=120
 JWT_SECRET=your_jwt_secret
 LOG_LEVEL=debug
 ```
+
+## How to run locally
+1. Pull the code from the repo
+2. Run `npm i` to install the required packages
+3. Copy .env.example to a new file .env and add the enviroment variables
+4. Use `npm run dev` to launch using nodemon

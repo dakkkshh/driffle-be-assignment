@@ -3,14 +3,14 @@
     "name": "Driffle BE Assignment",
     "builds": [
         {
-            "src": "./src/index.js",
+            "src": "index.js",
             "use": "@now/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/src/index.js"
+            "dest": "index.js"
         }
     ]
 }
