@@ -80,6 +80,9 @@ app.use(async (req, res, next) => {
     }
 });
 
+app.get("/", (req, res) => {
+    res.send(`Hey, the server is up and running!. For more details, go to <a href="https://github.com/dakkkshh/driffle-be-assignment" target="_blank">Driffle BE Assignment - dakkkshh</a>`)
+})
 app.use("/api/user", userRouter);
 app.use("/api/note", noteRouter);
 app.use((req, res) => {
