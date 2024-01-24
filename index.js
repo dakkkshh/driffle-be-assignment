@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-require('dotenv-safe').config();
+require('dotenv').config();
 var app = require('./src/app');
 var log = require('./logger');
 var http = require('http');
