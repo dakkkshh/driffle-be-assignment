@@ -6,7 +6,7 @@ The provided backend application fulfills the requirements for user authenticati
 
 ## How to use Postman Collection
 1. **Download the Postman Collection**
-2. **Add API_URL as "example.com/api" in the Environment Variables**
+2. **Add API_URL as "https://driffle-be-assignment.vercel.app/api" in the Environment Variables**
 3. **Login with the following creds:**
     - email - test@gmail.com
     - password - Qwerty@123
